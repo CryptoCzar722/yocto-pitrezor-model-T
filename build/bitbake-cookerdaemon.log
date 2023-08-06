@@ -1,0 +1,224 @@
+3909 11:27:49.826782 --- Starting bitbake server pid 3909 at 2023-07-30 11:27:49.826714 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+3914 11:27:50.638493 --- Starting bitbake server pid 3914 at 2023-07-30 11:27:50.638402 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+3918 11:27:51.385493 --- Starting bitbake server pid 3918 at 2023-07-30 11:27:51.385425 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+3921 11:27:52.154380 --- Starting bitbake server pid 3921 at 2023-07-30 11:27:52.154313 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+3989 11:27:57.832038 --- Starting bitbake server pid 3989 at 2023-07-30 11:27:57.831991 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+4068 11:28:03.552984 --- Starting bitbake server pid 4068 at 2023-07-30 11:28:03.552914 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+4137 11:28:09.385634 --- Starting bitbake server pid 4137 at 2023-07-30 11:28:09.385566 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+4184 11:28:15.177165 --- Starting bitbake server pid 4184 at 2023-07-30 11:28:15.177098 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+10906 22:01:49.171960 --- Starting bitbake server pid 10906 at 2023-07-30 22:01:49.171923 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+10910 22:01:49.523093 --- Starting bitbake server pid 10910 at 2023-07-30 22:01:49.523055 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+10913 22:01:49.902019 --- Starting bitbake server pid 10913 at 2023-07-30 22:01:49.901982 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+10916 22:01:50.307337 --- Starting bitbake server pid 10916 at 2023-07-30 22:01:50.307299 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+10921 22:01:55.642091 --- Starting bitbake server pid 10921 at 2023-07-30 22:01:55.642043 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+10927 22:02:01.001463 --- Starting bitbake server pid 10927 at 2023-07-30 22:02:01.001425 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+10934 22:02:06.360992 --- Starting bitbake server pid 10934 at 2023-07-30 22:02:06.360958 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>
+10940 22:02:11.705523 --- Starting bitbake server pid 10940 at 2023-07-30 22:02:11.705483 ---
+Traceback (most recent call last):
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/bin/bitbake-server", line 52, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/server/process.py", line 549, in execServer
+    cooker = bb.cooker.BBCooker(featureset, server.register_idle_function)
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/bb/cooker.py", line 169, in __init__
+    self.configwatcher = pyinotify.WatchManager()
+  File "/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/poky/bitbake/lib/pyinotify.py", line 1713, in __init__
+    raise InotifyBindingNotFoundError()
+pyinotify.InotifyBindingNotFoundError: Couldn't find any inotify binding
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/andrew/Documents/rpi-wallet/yocto-pitrezor/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 mode='w' encoding='UTF-8'>
+sys:1: ResourceWarning: unclosed <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>

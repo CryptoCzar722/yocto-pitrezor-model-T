@@ -1,0 +1,4 @@
+PACKAGECONFIG = "kmsdrm gles2"
+DEPENDS += "udev"
+BBCLASSEXTEND=""
+

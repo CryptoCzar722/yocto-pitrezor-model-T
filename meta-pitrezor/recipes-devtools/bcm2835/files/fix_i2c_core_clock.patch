@@ -1,0 +1,13 @@
+diff --git a/src/bcm2835.h b/src/bcm2835.h
+index 7d3e3b9..4a7c218 100644
+--- a/src/bcm2835.h
++++ b/src/bcm2835.h
+@@ -637,7 +637,7 @@
+ #endif
+ 
+ /*! Speed of the core clock core_clk */
+-#define BCM2835_CORE_CLK_HZ		250000000	/*!< 250 MHz */
++#define BCM2835_CORE_CLK_HZ		150000000	/*!< 150 MHz */
+ 
+ /*! On all recent OSs, the base of the peripherals is read from a /proc file */
+ #define BMC2835_RPI2_DT_FILENAME "/proc/device-tree/soc/ranges"
